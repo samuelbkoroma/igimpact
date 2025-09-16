@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "34360223432",
+    "project_id": "igniteimpact-bd581",
+    "storage_bucket": "igniteimpact-bd581.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34360223432:android:b9bfa31e3fe371f657a7fd",
+        "android_client_info": {
+          "package_name": "com.example.igniteimpact"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvv2piBtvfDX5fq_F3qtlJPn6xmMY5ks4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
