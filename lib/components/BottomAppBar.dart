@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:igniteimpact/screens/Entrepreneurship.dart';
+
 import 'package:igniteimpact/screens/HomePage.dart';
 import 'package:igniteimpact/screens/Internships.dart';
 import 'package:igniteimpact/screens/SavedJob.dart';
@@ -60,8 +61,8 @@ class _BottomAppbarState extends State<BottomAppbar> {
               isSelected: _selectedIndex == 0,
             ),
             _buildNavItem(
-              icon: Icons.star,
-              label: 'Star',
+              icon: Icons.work,
+              label: 'Internship',
               index: 1,
               isSelected: _selectedIndex == 1,
             ),
@@ -103,7 +104,7 @@ class _BottomAppbarState extends State<BottomAppbar> {
             ),
             _buildNavItem(
               icon: Icons.style,
-              label: 'Style',
+              label: 'Save',
               index: 3,
               isSelected: _selectedIndex == 3,
             ),

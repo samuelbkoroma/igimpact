@@ -23,7 +23,7 @@ class ThemeSettingsPage extends StatelessWidget {
               trailing: Switch(
                 value: themeProvider.isDarkMode,
                 onChanged: (value) => themeProvider.toggleTheme(value),
-                activeColor: currentTheme.colorScheme.secondary,
+                activeThumbColor: currentTheme.colorScheme.secondary,
               ),
             ),
             const Divider(),

@@ -30,7 +30,12 @@ class _ApplyPageState extends State<ApplyPage> {
             );
           },
         ),
-        actions: [BookmarkIcon()],
+        actions: [
+          BookmarkIcon(
+            jobId: '',
+            jobData: {},
+          )
+        ],
       ),
       body: SingleChildScrollView(
         child: Padding(
