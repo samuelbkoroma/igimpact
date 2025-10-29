@@ -3,7 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class BookmarkIcon extends StatefulWidget {
-  final String jobId;  
+  final String jobId;
   final Map<String, dynamic> jobData;
 
   const BookmarkIcon({
@@ -36,7 +36,7 @@ class _BookmarkIconState extends State<BookmarkIcon> {
           .collection('savedJobs')
           .doc(widget.jobId)
           .get();
-      
+
       setState(() {
         _isSaved = doc.exists;
       });
